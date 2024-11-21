@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/merienda"
+        android:textSize="20sp"
+        android:text="@string/nama" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/masukkan_nama"
+        android:fontFamily="@font/poppins_regular"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/merienda"
+        android:textSize="20sp"
+        android:text="@string/umur" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/masukkan_umur"
+        android:fontFamily="@font/poppins_regular"
+        android:inputType="number"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/merienda"
+        android:textSize="20sp"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/masukkan_email"
+        android:fontFamily="@font/poppins_regular"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonProceed"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/lanjutkan"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

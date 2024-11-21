@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">User Profile</string>
+    <string name="informasi_pengguna">Informasi Pengguna</string>
+    <string name="pesan_kelayakan">Pesan Kelayakan</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="masukkan_umur">Masukkan Umur</string>
+    <string name="masukkan_email">Masukkan Email</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="email">Email : </string>
+    <string name="umur">Umur : </string>
+    <string name="nama">Nama : </string>
+    <string name="welcome">Halo, [nama]! Selamat datang di aplikasi kami.</string>
+</resources>
